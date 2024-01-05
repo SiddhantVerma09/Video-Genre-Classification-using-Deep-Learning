@@ -4,7 +4,7 @@
 The classification of video genres is a tough and time-consuming operation that has recently piqued the interest of deep learning enthusiasts and researchers. With growing video streaming services in the modern era of online platforms, videos of numerous genres are being consumed. Such popularity of consuming videos has resulted in an excessive urge and demand for genre classification models. Thus, the multi-model approach for classification of video genres has been discussed in this study by preprocessing picture datasets from diverse genres, as well as training and evaluating deep learning models. Audio part in any video could prove to be the main distinction between video genres. Thus, in the second phase of the project dataset has been  trained and tested audio datasets including 8500+ audio files of different video genres. In conclusion, results have been analyzed and suggested a fusion strategy of both video and audio classification models to enhance the quality and accuracy of video genre classification in real-life systems and applications.
 
 ## Methodology - 
-In the method framework, video and audio genre classification has been implemented separately. For video genre classification, two different base models in Keras namely ResNet-50 and MobileNet have been trained and the one giving highest accuracy (ResNet-50 in this case) has been recommended for best results. While for audio genre classification, an Artificial Neural Network (ANN) architecture has been implemented. This paper suggests a multi-model strategy that can be implemented on large computing systems by combining both the video and audio genre classification models together in future. 
+In the method framework, video and audio genre classification has been implemented separately. For video genre classification, two different base models in Keras namely ResNet-50 and MobileNet have been trained and the one giving highest accuracy (ResNet-50 in this case) has been recommended for best results. While for audio genre classification, an Artificial Neural Network (ANN) architecture has been implemented. This paper suggests a multi-model strategy that can be implemented on large computing systems by combining both the video and audio genre classification models in future. 
 The entire process has been followed and performed in three phases which will be discussed in detail.
 
 ### A.	 Dataset Compilation and Pre-processing  -
@@ -26,4 +26,8 @@ For the actual model tuning process, since some of the audio files were mono cha
 ![image](https://github.com/SiddhantVerma09/Video-Genre-Classification-using-Deep-Learning/assets/63495865/fdb1881c-6a08-41af-be9c-64502210c805)
 
 ![image](https://github.com/SiddhantVerma09/Video-Genre-Classification-using-Deep-Learning/assets/63495865/dbd55e3c-3954-462b-8acb-d2e80ea627bf)
+
+![image](https://github.com/SiddhantVerma09/Video-Genre-Classification-using-Deep-Learning/assets/63495865/143ac1a2-6a32-4298-bbf6-347dad09ab07)
+
+![image](https://github.com/SiddhantVerma09/Video-Genre-Classification-using-Deep-Learning/assets/63495865/7f40e399-5c1e-405a-9c92-8552184e187d)
 
